@@ -2052,12 +2052,12 @@
 		return aa.length - bb.length;
 	}
 
-	/*var get_deleted_ratio = function( docs, deleted ) {
+	var get_deleted_ratio = function( docs, deleted ) {
 		if ( 0 == deleted )
 			return 0;
 		else
 			return deleted / ( docs + deleted );
-	}*/
+	}
 
 	$( function() {
 		cluster.init();
