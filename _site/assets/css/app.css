@@ -27,10 +27,10 @@
 	content: "\f058";
 }
 #navbar-clustername.status-red * {
-	color: #74b73f;
+	color: #ff1919;
 }
 #navbar-clustername.status-red #navbar-clustername-statusicon:before {
-	content: "\f058";
+	content: "\f057";
 }
 #navbar-clustername-action:hover #navbar-clustername-statusicon:before {
 	color: #ffffff;
