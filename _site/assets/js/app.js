@@ -721,7 +721,7 @@
 		};
 
 	var segments = {
-		_svg_padding_x: 40,
+		/*_svg_padding_x: 40,
 		_svg_padding_y: 20,
 		_svg_width: 390,
 		_svg_height: 150,
@@ -738,7 +738,7 @@
 			width: null,
 			height: null
 		},
-		_pause: false,
+		_pause: false,*/
 
 		init: function() {
 			var self = this;
