@@ -759,7 +759,7 @@
 
 	};
     
-	var alphanum = function(a, b) {
+	/*var alphanum = function(a, b) {
 		function chunkify(t) {
 			var tz = [], x = 0, y = -1, n = 0, i, j;
 
@@ -789,7 +789,7 @@
 		return aa.length - bb.length;
 	}
 
-	var get_deleted_ratio = function( docs, deleted ) {
+	*/var get_deleted_ratio = function( docs, deleted ) {
 		if ( 0 == deleted )
 			return 0;
 		else
