@@ -137,7 +137,7 @@ td.info-footer-value {
 .node .index {
 	fill: #179fb0;
 }
-.node.shard-state-relocating .disk {
+/*.node.shard-state-relocating .disk {
 	stroke: #f0c556;
 }
 .node.shard-state-relocating .index {
@@ -154,15 +154,12 @@ td.info-footer-value {
 }
 .node.shard-state-unassigned .index {
 	fill: #d0363e;
-}
+}*/
 .node_ratio .line {
 	stroke: #d0363e;
 }
 .node_ratio .line-point {
 	fill: #d0363e;
-}
-#nodes-svg-container{
-	width='960';
 }
 div#nodes-svg-container svg .node {
 	cursor: pointer;
