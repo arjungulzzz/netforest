@@ -697,7 +697,7 @@
 			indices.set_highlight_shards( highlight_shards );
 		},*/
 
-		/*_get_filtered_nodes: function() {
+		_get_filtered_nodes: function() {
 			var self = this;
 			var counts = {
 				'total': _.keys( self._nodes ).length,
@@ -714,14 +714,14 @@
 			counts.data = data_nodes.length;
 
 			// Apply filter from UI
-			var filter = $( '#nodes-filter' ).val();
+			/*var filter = $( '#nodes-filter' ).val();
 			if ( '' != filter ) {
 				var regex = new RegExp( filter, 'i' );
 				data_nodes = _.filter( data_nodes, function( node ) {
 					return null != JSON.stringify( node ).match( regex );
 				} );
 			}
-			counts.filtered = data_nodes.length;
+			counts.filtered = data_nodes.length;*/
 
 			// Sort nodes
 			data_nodes.sort( function( a, b ) {
@@ -732,7 +732,7 @@
 				'counts': counts,
 				'nodes': data_nodes
 			};
-		},*/
+		},
 
 		_update_cluster_totals: function() {
 			var self = this,
