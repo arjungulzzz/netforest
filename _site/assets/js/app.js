@@ -476,7 +476,7 @@
 					.orient( "right" )
 					.ticks( 5 )
 					.tickFormat( function(d) { return Math.round( d * 100 ) + '%' } ),
-				/*click_event = function( element, d ) {
+				click_event = function( element, d ) {
 					var e = d3.event,
 						g = element.parentNode,
 						isSelected = d3.select( g ).classed( "selected" );
@@ -506,7 +506,7 @@
 
 						self._highlighted_shards_for_node( null );
 					}*/
-				};*/
+				};
 
 
 			$( '#nodes h2 small' ).text(
