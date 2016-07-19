@@ -464,11 +464,11 @@
 					.linear()
 					.range( [ self._svg_height, 0 ] )
 					.domain( [ 0, 0.5 ] ),
-				ratio_line = d3
+				/*ratio_line = d3
 					.svg
 					.line()
 					.x( function(d, i) { return node_x( i + 0.5 ); } )
-					.y( function(d) { return ratio_y( d.docs.deleted_ratio ); } ),
+					.y( function(d) { return ratio_y( d.docs.deleted_ratio ); } ),*/
 				ratio_axis = d3
 					.svg
 					.axis()
