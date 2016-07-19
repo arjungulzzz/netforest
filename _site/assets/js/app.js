@@ -795,7 +795,7 @@
 		_highlight_shards: {},
 		_pause: false,*/
 
-		/*init: function() {
+		init: function() {
 			var self = this;
 
 			self._svg = d3
@@ -816,7 +816,7 @@
 			} );
 
 			// Set hover events
-			$( document ).on( 'mouseover', '#indices-svg .index', function() {
+			/*$( document ).on( 'mouseover', '#indices-svg .index', function() {
 				var index = $( this ).data( 'index' );
 				self._hover = {
 					index: index.id,
@@ -908,8 +908,8 @@
 			$( '#indices-svg' ).on( 'mouseleave', '.hover-target, .shard rect', function( event ) {
 				$.powerTip.hide( this );
 				self._pause = false;
-			} );
-		},*/
+			} );*/
+		},
 
 		reset: function() {
 			var self = this;
