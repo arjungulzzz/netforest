@@ -516,8 +516,8 @@
 				filtered_nodes.counts.data +
 				' Data, ' +
 				filtered_nodes.counts.total +
-				' Total)'*/
-			);
+				' Total)'
+			);*/
 
 			self._svg
 				.selectAll( 'g' )
