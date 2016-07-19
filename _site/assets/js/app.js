@@ -509,14 +509,14 @@
 				};
 
 
-			$( '#nodes h2 small' ).text(
+			/*$( '#nodes h2 small' ).text(
 				'(' +
 				filtered_nodes.counts.filtered +
 				'/' +
 				filtered_nodes.counts.data +
 				' Data, ' +
 				filtered_nodes.counts.total +
-				' Total)'
+				' Total)'*/
 			);
 
 			self._svg
