@@ -656,7 +656,7 @@
 				.attr("cx", function(d, i) { return node_x( i + 0.5 ); } )
 				.attr("cy", function(d) { return ratio_y( d.docs.deleted_ratio ); } )
 				.attr("r", 1.5)
-				.attr("class", "line-point");*/
+				.attr("class", "line-point");
 
 			self._svg
 				.append("g")
@@ -665,7 +665,7 @@
 				.call(ratio_axis);
 		},
 
-		/*_highlighted_shards_for_node: function( node_id ) {
+		_highlighted_shards_for_node: function( node_id ) {
 			var self = this,
 				node_shards = self._node_shards,
 				highlight_shards = {};
