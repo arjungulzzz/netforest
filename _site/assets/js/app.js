@@ -484,9 +484,9 @@
 					// Unselect everything else
 					d3.selectAll( 'g.selected' ).classed( "selected", false );
 					// Toggle select
-					d3.select( g ).classed( "selected", !isSelected );
+					//d3.select( g ).classed( "selected", !isSelected );
 
-					if ( !isSelected ) {
+					/*if ( !isSelected ) {
 						$( '#nodes-svg-container' ).addClass( 'selected' );
 						$( '#nodes' ).addClass( 'selected' );
 						self._selected = d.id;
@@ -505,7 +505,7 @@
 						);
 
 						self._highlighted_shards_for_node( null );
-					}
+					}*/
 				};
 
 
