@@ -728,7 +728,7 @@
 		_segment_size: {
 			min: 0,
 			max: 0
-		},
+		},*/
 		_rendered: {
 			index: null,
 			shard_num: null
@@ -738,7 +738,7 @@
 			width: null,
 			height: null
 		},
-		_pause: false,*/
+		_pause: false,
 
 		init: function() {
 			var self = this;
