@@ -254,10 +254,10 @@
 				);
 			} );
 
-			$( '#nodes-svg-container' ).on( 'mouseenter', function() {
+			/*$( '#nodes-svg-container' ).on( 'mouseenter', function() {
 				$( this ).addClass( 'hover' );
 				$( '#nodes' ).addClass( 'hover' );
-			} );
+			} );*/
 
 			$( '#nodes-svg-container' ).on( 'mouseleave', function() {
 				$( this ).removeClass( 'hover' );
