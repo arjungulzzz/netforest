@@ -214,7 +214,7 @@
 		_svg: null,
 		_svg_padding_x: 40,
 		_svg_padding_y: 20,
-		_svg_width: 890,
+		_svg_width: 860,
 		_svg_height: 260,
 		_nodes: {},
 		_node_shards: {},
