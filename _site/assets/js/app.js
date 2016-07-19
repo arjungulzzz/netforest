@@ -911,7 +911,7 @@
 			} );*/
 		},
 
-		/*reset: function() {
+		reset: function() {
 			var self = this;
 			self._selected = {
 				index: null,
@@ -923,9 +923,9 @@
 			};
 			self._highlight_shards = {};
 			self._is_refreshing = false;
-		},*/
+		},
 
-		_write_out_info_cells: function( index, shard, tr_index, tr_shard ) {
+		/*_write_out_info_cells: function( index, shard, tr_index, tr_shard ) {
 
 			if ( null == index ) {
 				tr_index.children( '.col-name' ).html( '<strong>Index:</strong> &mdash;' );
@@ -993,7 +993,7 @@
 				tr_shard.children( '.col-docs' ).text( d3.format( '.3s' )( shard.docs.count ) );
 				tr_shard.children( '.col-ratio' ).text( d3.format( '.2f' )( shard.docs.deleted_ratio * 100 ) + '%' );
 			}
-		},
+		},*/
 
 		resize: function() {
 			var self = this,
