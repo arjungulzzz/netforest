@@ -911,7 +911,7 @@
 			} );*/
 		},
 
-		reset: function() {
+		/*reset: function() {
 			var self = this;
 			self._selected = {
 				index: null,
@@ -923,7 +923,7 @@
 			};
 			self._highlight_shards = {};
 			self._is_refreshing = false;
-		},
+		},*/
 
 		_write_out_info_cells: function( index, shard, tr_index, tr_shard ) {
 
@@ -995,14 +995,14 @@
 			}
 		},
 
-		/*resize: function() {
+		resize: function() {
 			var self = this,
 				aspect = (self._svg_width + self._svg_padding_x * 2) / (self._svg_height + self._svg_padding_y * 2),
 				chart = $("#indices-svg"),
 				targetWidth = chart.parent().width();
 			chart.attr("width", targetWidth);
 			chart.attr("height", targetWidth / aspect);
-		},*/
+		},
 
 		/*sync_data: function() {
 			var self = this;
