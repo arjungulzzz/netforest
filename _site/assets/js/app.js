@@ -257,12 +257,12 @@
 			/*$( '#nodes-svg-container' ).on( 'mouseenter', function() {
 				$( this ).addClass( 'hover' );
 				$( '#nodes' ).addClass( 'hover' );
-			} );*/
+			} );
 
 			$( '#nodes-svg-container' ).on( 'mouseleave', function() {
 				$( this ).removeClass( 'hover' );
 				$( '#nodes' ).removeClass( 'hover' );
-			} );
+			} );*/
 
 			$( '#nodes-svg' ).on( 'mouseover', '.disk', function( event ) {
 				var element = $( this )
@@ -412,11 +412,11 @@
 			});
 		},
 
-		set_shards: function( node_shards ) {
+		/*set_shards: function( node_shards ) {
 			var self = this;
 			self._node_shards = node_shards;
 			self.render();
-		},
+		},*/
 
 		render: function() {
 			var self = this;
