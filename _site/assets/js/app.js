@@ -795,7 +795,7 @@
 		_highlight_shards: {},
 		_pause: false,*/
 
-		init: function() {
+		/*init: function() {
 			var self = this;
 
 			self._svg = d3
@@ -909,7 +909,7 @@
 				$.powerTip.hide( this );
 				self._pause = false;
 			} );
-		},
+		},*/
 
 		reset: function() {
 			var self = this;
