@@ -721,14 +721,6 @@
 		};
 
 	var segments = {
-		/*_svg_padding_x: 40,
-		_svg_padding_y: 20,
-		_svg_width: 390,
-		_svg_height: 150,
-		_segment_size: {
-			min: 0,
-			max: 0
-		},*/
 		_rendered: {
 			index: null,
 			shard_num: null
@@ -752,7 +744,7 @@
 				self.resize();
 			} );
 
-			$( document ).on( 'mouseover', '#segments-rendered .segment', function( event ) {
+			/*$( document ).on( 'mouseover', '#segments-rendered .segment', function( event ) {
 				var element = $( this )
 
 				self._pause = true;
@@ -771,7 +763,7 @@
 			$( document ).on( 'mouseleave', '#segments-rendered .segment', function( event ) {
 				$.powerTip.hide( this );
 				self._pause = false;
-			} );
+			} );*/
 		},
 
 		resize: function() {
