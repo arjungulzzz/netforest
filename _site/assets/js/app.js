@@ -776,7 +776,7 @@
 	};
 
 	var indices = {
-		_svg: null,
+		/*_svg: null,
 		_svg_padding_x: 40,
 		_svg_padding_y: 20,
 		_svg_width: 860,
@@ -793,7 +793,7 @@
 			shard: null
 		},
 		_highlight_shards: {},
-		_pause: false,
+		_pause: false,*/
 
 		init: function() {
 			var self = this;
