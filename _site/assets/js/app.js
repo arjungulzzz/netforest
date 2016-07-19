@@ -697,7 +697,7 @@
 			indices.set_highlight_shards( highlight_shards );
 		},*/
 
-		_get_filtered_nodes: function() {
+		/*_get_filtered_nodes: function() {
 			var self = this;
 			var counts = {
 				'total': _.keys( self._nodes ).length,
@@ -732,7 +732,7 @@
 				'counts': counts,
 				'nodes': data_nodes
 			};
-		},
+		},*/
 
 		_update_cluster_totals: function() {
 			var self = this,
