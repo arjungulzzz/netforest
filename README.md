@@ -12,7 +12,12 @@ Example: localhost:9200/_plugin/netforest
 
 # Monitoring 
 
-Enter the <host running elasticsearch> and <refresh interval in seconds>. Save the Config
+Enter the "host running elasticsearch and refresh interval in seconds". Save the Config
  
 ![alt text](https://github.com/arjungulzzz/netforest/blob/master/snaps/snap3.png "elasticsearch")
+
+
+Cluster name shown as :
+
+![alt text](https://github.com/arjungulzzz/netforest/blob/master/snaps/snap1.png "elasticsearch")
 
