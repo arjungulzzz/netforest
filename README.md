@@ -23,11 +23,11 @@ Cluster name shown as :
 
 Color of Cluster name is represented by the Cluster Health viz Red, Yellow, Green.
 
-Nodes given by d3 :
+Nodes given by d3 visualisation :
 
 ![alt text](https://github.com/arjungulzzz/netforest/blob/master/snaps/snap2.png "elasticsearch")
 
-Disk Space on Y-axis
+Disk Space is represented by Y-axis and the Elected Master Node is shown in the Table 
 
 The nodes section will show a bar chart of available disk on each node. The bars are color coded as follows:
 
