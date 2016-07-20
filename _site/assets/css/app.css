@@ -21,13 +21,13 @@
 	content: "\f058";
 }
 #navbar-clustername.status-yellow * {
-	color: #74b73f;
+	color: #f0c556;
 }
 #navbar-clustername.status-yellow #navbar-clustername-statusicon:before {
-	content: "\f058";
+	content: "\f06a";
 }
 #navbar-clustername.status-red * {
-	color: #74b73f;
+	color: #d0363e;
 }
 #navbar-clustername.status-red #navbar-clustername-statusicon:before {
 	content: "\f057";
